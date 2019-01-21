@@ -1,0 +1,20 @@
+
+body {
+	background-image: url(../image/Tower.png);
+	background-size: cover;
+	background-repeat: no-repat;
+	height: 965px;
+}
+
+#towerDoor {
+	width: 57px;
+	height: 70px;
+	border: 1px solid red;
+
+	position: absolute;
+	margin-left: 830px;
+	margin-top: 810px;
+}
+#towerDoor:hover {
+	cursor: pointer;
+}

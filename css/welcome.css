@@ -1,0 +1,88 @@
+body {
+	font-family: sans-serif;
+	background-color: lightgrey;
+}
+
+#register {
+	width: 350px;
+	height: 500px;
+	background-color: white;
+	margin-left: 750px;
+	margin-top: 150px;
+}
+
+#welcomeMessage {
+	font-size: 40px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.labelName {
+	font-size: 25px;
+	margin-left: 140px;
+
+}
+#name {
+	margin-top: 20px;
+	font-size: 25px;
+	margin-left: 40px;
+	text-align: center;
+	width: 250px;
+}
+
+#gender {
+	font-size: 30px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#male {
+	float: left;
+	width: 70px;
+	height: 70px;
+	background-color: lightgrey;
+	font-size: 35px;
+
+	margin-left: 70px;
+	margin-top: 30px;
+}
+#male-icon {
+	margin-left: 23px;
+	margin-top: 15px;
+}
+
+#female {
+	float: right;
+	width: 70px;
+	height: 70px;
+	background-color: lightgrey;
+	font-size: 35px;
+	
+	margin-right: 70px;
+	margin-top: 30px;
+}
+#female-icon {
+	margin-left: 23px;
+	margin-top: 15px;	
+}
+
+#clearBoth {
+	clear:both;
+}
+
+#enterWorld {
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 65px;
+	
+	width: 220px;
+	height: 50px;
+	background-color: red;
+	color: white;
+}
+.enterWorldText {
+	position: absolute;
+	margin-left: 7px;
+	margin-top: 7px;
+}

@@ -1,0 +1,76 @@
+{
+	"bossInfo" : [
+		{
+			"floor": "Zero",
+			"bossName" : "Void Soldier",
+			"bossHp" : "1000",
+			"bossDef" : " 35"
+		},
+		{
+			"floor": "One",
+			"bossName" : "Void Commander",
+			"bossHp" : "2200",
+			"bossDef" : " 55"
+		},	
+		{
+			"floor": "Two",
+			"bossName" : "Void Captain",
+			"bossHp" : "3500",
+			"bossDef" : " 75"
+		},
+		{
+			"floor": "Three",
+			"bossName" : "Void General",
+			"bossHp" : "3800",
+			"bossDef" : " 85"
+		},	
+		{
+			"floor": "Four",
+			"bossName" : "Void Shadow",
+			"bossHp" : "4000",
+			"bossDef" : " 100"
+		},
+		{
+			"floor": "Five",
+			"bossName" : "Goblin Soldier",
+			"bossHp" : "4300",
+			"bossDef" : " 101"
+		},
+		{
+			"floor": "Six",
+			"bossName" : "Goblin King",
+			"bossHp" : "4500",
+			"bossDef" : " 105"
+		},	
+		{
+			"floor": "Seven",
+			"bossName" : "Goblin Lord",
+			"bossHp" : "5000",
+			"bossDef" : " 110"
+		},
+		{
+			"floor": "Eight",
+			"bossName" : "Green Wolf",
+			"bossHp" : "5200",
+			"bossDef" : " 115"
+		},	
+		{
+			"floor": "Nine",
+			"bossName" : "Dark Wolf",
+			"bossHp" : "5400",
+			"bossDef" : " 120"
+		},	
+		{
+			"floor": "Ten",
+			"bossName" : "Alpha Wolf",
+			"bossHp" : "5600",
+			"bossDef" : " 125"
+		},
+		{
+			"floor" : "Eleven",
+			"bossName" : "Guardian Of SpiralVerse",
+			"bossHp" : "9999999",
+			"bossDef" : "6666"
+		}
+	]
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Tower Climber Game" />
+	<meta name="keywords" content="Tower" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name ="author" content="Kimleang Nao" />
+	<title>Floor Three</title>
+	<link href="css/floor.css" type="text/css" rel="stylesheet" />
+	<link href="css/reset.css" type="text/css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="nextFloor">
+		<h1>Next Floor</h1>
+	</div>
+	
+	<div id="bossName">
+		<h1 id="bossNameShow">Void Shadow</h1>
+	</div>
+
+	<div id="bossHp">
+		<div id="bossCurrentHp"><h1>Hp: ???</h1></div>
+	</div>
+
+	<div id="bossPic">
+		<div id="bossWeakness">
+			
+		</div>
+		<img src="image/Boss.png" alt="Boss" />
+	</div>
+
+	<div id="victory">
+		<h1 id="victoryMess">Void Shadow is dead!</h1>
+		<h1 id="defeat">DEFEAT</h1>
+		<h1 id="confirm">Confirm</h1>
+	</div>
+	<div id="system"> 
+
+		<h1 id="systemWindow">System</h1>
+		<h1 id="tips">Click on the boss frame to attack it</h1>
+			<div>
+				<h1 id="conMess">Click Confirm to get Exp</h1>
+			</div>
+			<div id="exp">
+				<h1> +200 Exp</h1>
+			</div>
+			
+			<div>
+				<h1 id="f5Mess">Click F5 to reset the floor</h1>
+				<h1 id="nfMess">Click Next Floor to go to higher floor</h1>
+			</div>
+	</div>
+
+	<div id="userHp">
+		<div id="userCurrentHp"> <h1>Hp: </h1> </div>
+	</div>
+
+	<div id="userMana">
+		<div id="userCurrentMana"> <h1>Mana: </h1> </div>
+	</div>
+
+	<div id="characterStats">
+		<h1 id="myName"></h1>
+		<h1 id="myLevel">Level 100</h1>
+		<div id="userStats">
+			<h1 id="userAttack">AD: </h1>
+			<h1 id="userHealthAmount">HP: </h1>
+			<h1 id="userManaAmount">MP: </h1>
+			<h1 id="userCritical">CR: </h1>
+			<h1 id="userDodge">DR: </h1>
+		</div>
+		<div id="levelUpBonus">
+			<h1 id="currentSkillPoint">Skill Point: </h1>
+			<h1 id="StrUp">+</h1>
+			<h1 id="levelUpStr">STR:</h1>
+			<h1 id="IntUp">+</h1>
+			<h1 id="levelUpInt">INT:</h1>
+			<h1 id="VitUp">+</h1>
+			<h1 id="levelUpVit">VIT:</h1>
+			<h1 id="AgiUp">+</h1>
+			<h1 id="levelUpAgi">AGI:</h1>
+			<h1 id="ObsUp">+</h1>
+			<h1 id="levelUpObs">OBS:</h1>
+			
+		</div>
+	</div>
+	<div id="character">
+		Char
+	</div>
+	<div id="characterClose">
+		Char
+	</div>
+
+	<div id="previousFloor">
+		<h1>Last Floor</h1>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/floorThree.js"></script>
+</body>
+</html>

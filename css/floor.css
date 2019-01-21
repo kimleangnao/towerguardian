@@ -1,0 +1,316 @@
+
+#nextFloor {
+	position: absolute;
+	right: 0px;
+	padding: 30px;
+
+	font-size: 40px;
+
+	background-color: red;
+	color: white;
+	display: none;
+}
+#nextFloor {
+	cursor: pointer;
+}
+
+#previousFloor {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding: 30px;
+	
+	font-size: 40px;	
+
+	background-color: lightgrey;
+}
+#previousFloor:hover {
+	cursor: pointer;
+}
+#userHp {
+	position: absolute;
+	width: 400px;
+	height: 20px;
+	background-color: lightgrey;
+
+	margin-left: 750px;
+	margin-top: 750px;
+}
+#userHp h1 {
+	color: white;
+}
+
+#userCurrentHp {
+	height: 20px;
+	width: 100%;
+	background-color: red;
+}
+
+
+#userMana {
+	position: absolute;
+	width: 400px;
+	height: 20px;
+	background-color: lightgrey;
+
+	margin-left: 750px;
+	margin-top: 780px;	
+}
+#userCurrentMana {
+	width: 100%;
+	height: 20px;
+	background-color: blue;
+}
+#userCurrentMana h1 {
+	color: white;
+}
+
+#bossHp {
+	position: absolute;
+	width: 400px;
+	height: 20px;
+	background-color: lightgrey;
+
+	margin-left: 750px;
+	margin-top: 20px;	
+}
+#bossCurrentHp {
+	width: 100%;
+	height: 20px;
+	background-color: red;
+}
+#bossCurrentHp h1 {
+	color: white;
+}
+
+#bossPic {
+	position: absolute;
+	width: 400px;
+	height: 600px;
+
+	margin-left: 750px;
+	margin-top: 50px;
+}
+#bossPic img {
+	width: 400px;
+	height: 600px;
+}
+
+#bossName {
+	width: 400px;
+	height: 30px;
+	margin-left: 750px;
+	margin-top: 10px;	
+}
+#bossName h1 {
+	font-size: 25px;
+	text-align: center;
+}
+
+#victory {
+	position: absolute;
+	font-size: 25px;
+	width: 400px;
+
+	margin-left: 750px;
+	margin-top: 250px;
+}
+
+#victoryMess {
+	text-align: center;
+	display: none;
+}
+#confirm {
+	margin-top:30px;
+	text-align: center;
+	display: none;
+}
+#confirm:hover {
+	cursor: pointer;
+	color: red;
+}
+
+#system {
+	position: absolute;
+	font-size: 15px;
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+
+	margin-left: 100px;
+	margin-top: 450px;
+
+}
+#systemWindow {
+	text-align: center;
+	font-size: 23px;
+	color: green;
+}
+#tips {
+	padding: 10px;
+}
+
+#exp {
+	padding: 10px;
+	display: none;
+}
+#conMess{
+	margin-top: 10px;
+	padding: 10px;
+	display: none;
+}
+#f5Mess {
+	padding: 10px;
+	display: none;
+}
+#nfMess {
+	padding: 10px;
+	display: none;
+}
+
+#defeat {
+	position: absolute;
+	margin-left: 70px;
+	margin-top: 70px;
+	font-size: 70px;
+	color: red;
+	display: none;
+}
+
+/*Char open box*/
+
+#character {
+	position: absolute;
+	padding: 30px;
+	right: 150px;
+	bottom: 0px;
+
+	font-size: 25px;
+	background-color: lightgrey;
+	
+}
+#character:hover {
+	cursor: pointer;
+	color: white;
+	background-color: grey;
+}
+
+
+/*Char close Box*/
+
+#characterClose {
+	position: absolute;
+	padding: 30px;
+	right: 150px;
+	bottom: 0px;
+
+	font-size: 25px;
+	background-color: red;	
+	color: white;
+	display: none;
+}
+#characterClose:hover {
+	cursor: pointer;
+	color: white;
+	background-color: black
+}
+
+/*character stats*/
+#characterStats {
+	position: absolute;
+	width: 400px;
+	height: 700px;
+
+	background-color: lightgrey;
+	margin-top: 50px;
+	right: 20px;
+
+	display: none;
+}
+
+#userStats {
+	font-family: consolas;
+	position: absolute;
+	margin-top: 330px;
+	font-size: 25px;
+	padding: 15px;
+}
+
+#levelUpBonus {
+	font-family: consolas;
+	position: absolute;
+	margin-top: 470px;
+	font-size: 25px;
+	padding: 15px;	
+}
+
+#myName {
+	text-align: center;
+	font-size: 30px;
+}
+#myLevel {
+	text-align: center;
+	font-size: 30px;
+}
+
+#StrUp {
+	position: absolute;
+	margin-left: 140px;
+	font-weight: bold;
+}
+#StrUp:hover {
+	cursor: pointer;
+	color: red;
+}
+
+#IntUp{
+	position: absolute;
+	margin-left: 140px;
+	font-weight: bold;
+}
+#IntUp:hover {
+	cursor: pointer;
+	color: red;
+}
+
+#VitUp{
+	position: absolute;
+	margin-left: 140px;
+	font-weight: bold;
+}
+#VitUp:hover {
+	cursor: pointer;
+	color: red;
+}
+
+#AgiUp {
+	position: absolute;
+	margin-left: 140px;
+	font-weight: bold;
+}
+#AgiUp:hover {
+	cursor: pointer;
+	color: red;
+}
+
+#ObsUp{
+	position: absolute;
+	margin-left: 140px;
+	font-weight: bold;
+}
+#ObsUp:hover {
+	cursor: pointer;
+	color: red;
+}
+
+/*boss weakness*/
+#bossWeakness {
+	position: absolute;
+	width: 45px;
+	height: 75px;
+	//border: 1px solid red;
+
+	margin-left: 170px;
+	margin-top: 90px;
+	z-index: 999;
+}
